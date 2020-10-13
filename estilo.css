@@ -2,8 +2,9 @@ body {
  font: 400 15px Tahoma, sans-serif; /*Familia sans-serif*/
  line-height: 1.5;
  color: #423434;
- background-color:#e6f5ee;
+ background-color: white;
  }
+
 h1 {
  background-color:#1100fae1;
  color: #fff;
@@ -26,15 +27,15 @@ h3 {
     background-color:#e6f5ee;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
-    padding: 0px 25px;
-    text-align: left;
+    padding: 0px 50px;
+    text-align: center;
+    width: 200px;
    }
 
 caption {
     background-color:#e6f5ee;
     color: rgb(0, 0, 0);
-    padding: 5px 180px;
-    text-align: left;
+    text-align: center;
 }
 
 table {
