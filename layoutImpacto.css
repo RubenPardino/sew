@@ -5,8 +5,8 @@
 body {
     display: grid;
     gap: 1.6em;
-    grid-template-columns: (2,0.6fr);
-    grid-template-rows: (2,0.6fr);
+    grid-template-columns: repeat(2,0.6fr);
+    grid-template-rows: repeat(2,0.6fr);
 }
 
 header{
@@ -19,6 +19,7 @@ section {
     grid-column: 1;
     border: 0.125em black solid;
     background-color: rgb(148, 211, 177);
+    color: white;
 }
 
 aside {

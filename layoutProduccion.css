@@ -5,8 +5,8 @@
 body{
     display: grid;
     gap: 1.6em;
-    grid-template-rows: (4,0.6fr);
-    grid-template-columns: (2,0.6fr);
+    grid-template-rows: repeat(4,0.6fr);
+    grid-template-columns: repeat(2,0.6fr);
 }
 
 header{
@@ -26,6 +26,7 @@ h2 {
     grid-column: 1;
     border: 0.125em black solid;
     background-color: rgb(148, 211, 177);
+    color: white;
     display: flex;
     text-align: center;
     align-items: center;
@@ -38,6 +39,7 @@ h2 {
     grid-column: 2;
     border: 0.125em black solid;
     background-color: rgb(148, 211, 177);
+    color: white;
     display: flex;
     text-align: center;
     align-items: center;
