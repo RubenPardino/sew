@@ -14,7 +14,7 @@ article{
     grid-column: span 2;
     border: 0.125em black solid;
     background-color: rgb(148, 211, 177);
-    color: white;
+    color: black;
 }
 
 aside{
@@ -22,7 +22,7 @@ aside{
     grid-column: 3;
     border: 0.125em black solid;
     background-color: rgb(148, 211, 177);
-    color: white;
+    color: black;
     display: flex;
     text-align: center;
     align-items: center;

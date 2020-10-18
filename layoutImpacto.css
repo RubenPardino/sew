@@ -19,7 +19,7 @@ section {
     grid-column: 1;
     border: 0.125em black solid;
     background-color: rgb(148, 211, 177);
-    color: white;
+    color: black;
 }
 
 aside {

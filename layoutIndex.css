@@ -20,7 +20,7 @@ aside {
     grid-template-columns: repeat(1,0.6fr);
     grid-template-rows: repeat(1,0.6fr);
     background-color: rgb(148, 211, 177);
-    color: white;
+    color: black;
     grid-row: span 2;
     grid-column: 3;
     border: 0.125em black solid;
@@ -44,7 +44,7 @@ article{
     grid-column: span 2;
     border: 0.125em black solid;
     background-color: rgb(148, 211, 177);
-    color: white;
+    color:black;
 }
 
 .Historia{
