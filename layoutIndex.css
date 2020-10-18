@@ -30,7 +30,7 @@ aside {
     grid-column: 3;
 }
 
-.Equipo {
+.Equi {
     grid-row: 1;
     grid-column: 3;
 }
@@ -47,12 +47,12 @@ article{
     color:black;
 }
 
-.Historia{
+.Hist{
     grid-row: 1;
     grid-column: span 2;
 }
 
-.Argumento{
+.Argu{
     grid-row: 2;
     grid-column: span 2;
 }
