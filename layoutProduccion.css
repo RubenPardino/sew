@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: grid;
+    gap: 1.6em;
+    grid-template-rows: (4,0.6fr);
+    grid-template-columns: (2,0.6fr);
+}
+
+header{
+    grid-row: 1;
+    grid-column: span 2;
+}
+
+
+h2 {
+    grid-row: 2;
+    grid-column: span 2;
+}
+
+.Series {
+    gap: 1.6em;
+    grid-row: 3;
+    grid-column: 1;
+    border: 0.125em black solid;
+    background-color: rgb(148, 211, 177);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Peliculas {
+    gap: 1.6em;
+    grid-row: 3;
+    grid-column: 2;
+    border: 0.125em black solid;
+    background-color: rgb(148, 211, 177);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+figure{
+    grid-row: 4;
+    grid-column: span 2;
+}
+

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+
+section {
+    display: grid;
+    gap: 1.6em;
+    grid-template-columns: repeat(3,0.6fr);
+    grid-template-rows: repeat(2,0.6fr);
+}
+
+header{
+    margin-bottom: 1.6em;
+}
+
+aside {
+    display: grid;
+    grid-template-columns: (1,0.6fr);
+    grid-template-rows: (1,0.6fr);
+    background-color: rgb(148, 211, 177);
+    grid-row: span 2;
+    grid-column: 3;
+    border: 0.125em black solid;
+}
+.Tabla {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.Equipo {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+article{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(1,0.6fr);
+    grid-template-rows: repeat(1,0.6fr);
+    grid-row: span 2;
+    grid-column: span 2;
+    border: 0.125em black solid;
+    background-color: rgb(148, 211, 177);
+}
+
+.Historia{
+    grid-row: 1;
+    grid-column: span 2;
+}
+
+.Argumento{
+    grid-row: 2;
+    grid-column: span 2;
+}
+
+
