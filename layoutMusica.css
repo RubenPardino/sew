@@ -30,6 +30,7 @@ aside{
 }
 
 header{
+    margin-bottom: 0.5em;
     grid-row: 1;
     grid-column: span 3;
 }

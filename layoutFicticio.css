@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    margin-bottom: 1.6em;
+    margin-bottom: 0.5em;
     grid-row: 1;
     grid-column: span 2;
 }
