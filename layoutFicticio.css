@@ -14,15 +14,15 @@ header{
 }
 
 #Marco {
-    background-color: rgb(148, 211, 177);
-    color: black;
+    background-color: #94d3b1;
+    color: #000000;
     grid-column: 1;
-    border: 0.125em black solid;
+    border: 0.125em #000000 solid;
 }
 
 #tec {
-    background-color: rgb(148, 211, 177);
-    color: black;
+    background-color: #94d3b1;
+    color: #000000;
     grid-column: 2;
-    border: 0.125em black solid;
+    border: 0.125em #000000 solid;
 }

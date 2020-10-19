@@ -10,16 +10,16 @@ body{
 
 article{
     grid-column: span 2;
-    border: 0.125em black solid;
-    background-color: rgb(148, 211, 177);
-    color: black;
+    border: 0.125em #000000 solid;
+    background-color: #94d3b1;
+    color: #000000;
 }
 
 aside{
     grid-column: 3;
-    border: 0.125em black solid;
-    background-color: rgb(148, 211, 177);
-    color: black;
+    border: 0.125em #000000 solid;
+    background-color: #94d3b1;
+    color: #000000;
     display: flex;
     text-align: center;
     align-items: center;

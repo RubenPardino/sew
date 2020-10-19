@@ -21,9 +21,9 @@ h2 {
 #Series {
     gap: 1.6em;
     grid-column: 1;
-    border: 0.125em black solid;
-    background-color: rgb(148, 211, 177);
-    color: black;
+    border: 0.125em #000000 solid;
+    background-color: #94d3b1;
+    color: #000000;
     display: flex;
     text-align: center;
     align-items: center;
@@ -33,9 +33,9 @@ h2 {
 #Peliculas {
     gap: 1.6em;
     grid-column: 2;
-    border: 0.125em black solid;
-    background-color: rgb(148, 211, 177);
-    color: black;
+    border: 0.125em #000000 solid;
+    background-color: #94d3b1;
+    color: #000000;
     display: flex;
     text-align: center;
     align-items: center;

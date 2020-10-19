@@ -16,10 +16,10 @@ header{
 aside {
     display: grid;
     grid-template-columns: repeat(1,0.6fr);
-    background-color: rgb(148, 211, 177);
-    color: black;
+    background-color: #94d3b1;
+    color: #000000;
     grid-column: 3;
-    border: 0.125em black solid;
+    border: 0.125em #000000 solid;
 }
 #Tabla {
     grid-column: 3;
@@ -34,9 +34,9 @@ article{
     gap: 2em;
     grid-template-columns: repeat(1,0.6fr);
     grid-column: span 2;
-    border: 0.125em black solid;
-    background-color: rgb(148, 211, 177);
-    color:black;
+    border: 0.125em #000000 solid;
+    background-color: #94d3b1;
+    color:#000000;
 }
 
 #Historia {
