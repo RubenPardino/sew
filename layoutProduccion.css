@@ -3,6 +3,7 @@
 }
 
 body{
+    font-size: 1.3em;
     display: grid;
     gap: 1.6em;
     grid-template-columns: repeat(2,0.6fr);
